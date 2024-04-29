@@ -41,9 +41,11 @@ rm a.txt  # del
 open .  # explorer.exe .
 apt install git  # apt is scoop here :)
 git init .
-ps  # procs
-ps | grep  # scoop install grep
-top # scoop install btop
+df # duf
+find # fd
+ps # procs
+ps | grep # scoop install grep
+top # btop
 man cat  # help cat
 ~  # go back to home dir
 home  # same as above
