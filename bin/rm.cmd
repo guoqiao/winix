@@ -1,3 +1,3 @@
 @echo off
 echo.
-del /p %*
+del %*
