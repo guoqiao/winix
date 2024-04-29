@@ -13,6 +13,12 @@ To change envvar on Windows:
 
 Settings -> System -> About -> Advanced system settings -> Environment Variables
 
+Or just run this cmd:
+
+```
+bin\edit-env-vars.cmd
+```
+
 Please note, `Path` envvar exists in both `User variables for xxx` and `System variables`.
 
-For this project, either one is ok.
+For this project, you only need to change the user one.
