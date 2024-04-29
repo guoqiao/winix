@@ -5,6 +5,7 @@ scoop install aria2
 
 scoop install ^
 touch bat delta neovim ^
+git onefetch ^
 eza lsd ag fd zoxide ^
 dust duf broot ^
 btop bottom procs ^
