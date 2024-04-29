@@ -50,4 +50,7 @@ home  # same as above
 poweroff  # shutdown /s
 reboot  # shutdown /r
 sleep # shutdown /h
+...
 ```
+
+More to be added, contributions are welcome!
