@@ -28,22 +28,22 @@ For this project, you only need to change the user one.
 In Windows Terminal -> Command Prompt, now you can do common tasks just like you are on Unix/Linux:
 
 ```
-touch a.txt  # create file with touch, installed by scoop
+touch a.txt  # scoop install touch
 vim a.txt  # edit file with neovim
-view a.txt  # view file in vim in Readonly mode
+view a.txt  # view file in neovim in Readonly mode
 cat a.txt  # show file with bat
-cp a.txt b.txt
-ln c.txt a.txt  # create sym link, c.txt is the link though
-ll  # list all files
-lll  # list all files with full path
-ltree  # show file in tree
-rm a.txt
-open .  # open current folder in file explorer
-apt install git  # apt is actually scoop here :D
+cp a.txt b.txt # copy
+ln c.txt a.txt  # mklink
+ll  # list with exa --long
+lll  # list with exa --long --absolute
+ltree  # list with exa --tree
+rm a.txt  # del
+open .  # explorer.exe .
+apt install git  # apt is scoop here :)
 git init .
 ps  # procs
-ps | grep  # grep is installed by scoop
-top # btop
+ps | grep  # scoop install grep
+top # scoop install btop
 man cat  # help cat
 ~  # go back to home dir
 home  # same as above
