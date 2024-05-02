@@ -1,1 +1,0 @@
-./edit-env-vars.cmd
